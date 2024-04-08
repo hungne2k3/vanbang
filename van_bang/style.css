@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* quốc hiệu */
+    --national-brand: 14px;
+    /* Tiêu ngữ */
+    --title-language: 13px;
+
+    /* Font chu */
+    --font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: var(--font-family);
+    padding-top: 94.49px;
+}
+
+/* header {
+    width: 793.701216px;
+    margin: 0 auto;
+} */
+
+.title-head div span {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-head div strong {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+/*tablets  */
+/* @media (min-width: 768px) {
+    .title-head div span {
+        font-size: 16px;
+    }
+
+    .title-head div strong {
+        font-size: 17px;
+    }
+} */
+
+/* mobi */
+@media (max-width: 767px) {
+    .title-head div span {
+        font-size: 7px;
+    }
+
+    .title-head div strong {
+        font-size: 9px;
+    }
+}
